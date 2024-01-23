@@ -104,6 +104,7 @@ nav a {
 .information {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
@@ -136,4 +137,77 @@ nav a {
     font-size: 14px;
     color: gray;
     text-align: center;
+}
+
+#quote-section {
+    background-color: #E5E7EB;
+    color: #222C3A;
+    padding: 5rem 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container h4 {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-container p {
+    align-self: flex-end;
+}
+
+#subscription {
+    display: flex;
+    padding: 5rem 10rem;
+    justify-content: center;
+    
+}
+
+.sub-header {
+    background-color: #3D83F6;
+    border-radius: 0.5rem;
+    width: 80%;
+    padding: 2rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sub-header h4 {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sub-header p {
+    color: white;
+    font-size: 18px;
+}
+
+#subscription button {
+    background-color: #3D83F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0.2rem;
+    width: 7rem;
+    height: 2rem;
+}
+
+footer {
+    padding: 1rem 5rem;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
